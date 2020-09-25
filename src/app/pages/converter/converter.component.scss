@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+}
+
+.text {
+  font-size: 24px;
+  margin: 10px;
+}
+
+.container-calculate {
+  width: 300px;
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

@@ -1,0 +1,45 @@
+<div class="container">
+  <div class="container-calculate">
+    <label class="text">Bin para Decimal</label>
+    <input type="text" [(ngModel)]="firstValue" />
+
+    <button (click)="binToDecimalCalculate()">Calcular</button>
+
+    <div class="text">
+      <label>Resultado: {{binToDecimal}}</label>
+    </div>
+  </div>
+
+  <div class="container-calculate">
+    <label class="text">Hex para Decimal</label>
+    <input type="text" [(ngModel)]="secondValue" />
+
+    <button (click)="hexToDecimalCalculate()">Calcular</button>
+
+    <div class="text">
+      <label>Resultado: {{hexToDecimal}}</label>
+    </div>
+  </div>
+
+  <div class="container-calculate">
+    <label class="text">Decimal para Bin</label>
+    <input type="text" [(ngModel)]="thirdValue" />
+
+    <button (click)="decimalToBinCalculate()">Calcular</button>
+
+    <div class="text">
+      <label>Resultado: {{decimalToBin}}</label>
+    </div>
+  </div>
+
+  <div class="container-calculate">
+    <label class="text">Decimal para Hex</label>
+    <input type="text" [(ngModel)]="fourthValue" />
+
+    <button (click)="decimalToHexCalculate()">Calcular</button>
+
+    <div class="text">
+      <label>Resultado: {{decimalToHex}}</label>
+    </div>
+  </div>
+</div>
